@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         if(requestCode == REQUEST_CODE && resultCode == RESULT_OK){
             String result = data.getStringExtra("result");
             Toast.makeText(this, result, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, result, Toast.LENGTH_SHORT).show();
         }
     }
 
