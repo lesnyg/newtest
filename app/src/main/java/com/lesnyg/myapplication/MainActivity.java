@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     public void sendButtonClick(View view) {
         Intent intent = new Intent(this,SecondActivity.class);
         intent.putExtra("name",nameEditText.getText().toString());
-
+        intent.putExtra("name2",nameEditText.getText().toString());
 
         startActivityForResult(intent, REQUEST_CODE);
     }
